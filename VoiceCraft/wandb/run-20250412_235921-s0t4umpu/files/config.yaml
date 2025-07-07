@@ -1,0 +1,181 @@
+_wandb:
+    value:
+        cli_version: 0.19.9
+        m: []
+        python_version: 3.9.21
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 53
+                - 55
+                - 105
+            "2":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 53
+                - 55
+                - 105
+            "3":
+                - 16
+                - 23
+                - 55
+            "4": 3.9.21
+            "5": 0.19.9
+            "6": 4.51.1
+            "8":
+                - 5
+            "12": 0.19.9
+            "13": linux-x86_64
+audio_embedding_dim:
+    value: 2048
+audio_embedding_dropout:
+    value: 0
+audio_max_length:
+    value: 30
+audio_min_length:
+    value: 0.2
+audio_pad_token:
+    value: 2050
+audio_positional_embedding_dropout:
+    value: 0.1
+audio_vocab_size:
+    value: "2048"
+batch_size:
+    value: 100
+clipping_update_period:
+    value: 600
+codebook_weight:
+    value: '[3,1,1,1]'
+d_model:
+    value: 2048
+dataset:
+    value: mucs
+dataset_dir:
+    value: datasets/mucs/
+drop_long:
+    value: 1
+dynamic_batching:
+    value: 1
+early_stop_step:
+    value: 3200
+early_stop_threshold:
+    value: -1
+empty_token:
+    value: 2048
+encodec_folder_name:
+    value: xs/encodec_16khz_4codebooks
+encodec_sr:
+    value: 50
+eog:
+    value: 2049
+eos:
+    value: 2051
+exp_dir:
+    value: logs/mucs/e830M
+gradient_accumulation_steps:
+    value: 12
+gradient_clip_val:
+    value: 1
+load_model_from:
+    value: pretrained_models/model.pth
+lr:
+    value: 1e-05
+manifest_name:
+    value: manifest
+mask_len_max:
+    value: 600
+mask_len_min:
+    value: 1
+mask_sample_dist:
+    value: poisson1
+max_mask_portion:
+    value: 0.9
+max_n_spans:
+    value: 3
+max_num_tokens:
+    value: 50000
+min_gap:
+    value: 5
+n_codebooks:
+    value: 4
+n_special:
+    value: 4
+nhead:
+    value: 16
+num_buckets:
+    value: 6
+num_decoder_layers:
+    value: 16
+num_epochs:
+    value: 10
+num_steps:
+    value: 1000000
+num_workers:
+    value: 128
+optimizer_name:
+    value: AdamW
+pad_x:
+    value: 0
+phn_folder_name:
+    value: xs/phonemes
+precision:
+    value: float16
+print_every_n_steps:
+    value: 400
+pseudo_epoch_size:
+    value: 3000
+reduce_lr_start_epoch:
+    value: 4
+reduce_lr_start_step:
+    value: 3000
+reduced_eog:
+    value: 1
+resume:
+    value: false
+seed:
+    value: 1
+shuffle_mask_embedding:
+    value: 0
+special_first:
+    value: 0
+tb_write_every_n_steps:
+    value: 10
+text_embedding_dropout:
+    value: 0.1
+text_max_length:
+    value: 400
+text_min_length:
+    value: 10
+text_pad_token:
+    value: 1536
+text_positional_embedding_dropout:
+    value: 0.1
+text_vocab_size:
+    value: 1536
+trm_dropout:
+    value: 0.1
+use_prompt:
+    value: false
+use_prompt_prob:
+    value: 0.5
+use_wandb:
+    value: true
+val_every_n_steps:
+    value: 400
+val_max_num_tokens:
+    value: 6000
+wandb_name:
+    value: null
+wandb_project:
+    value: mucs
+warmup_fraction:
+    value: 0.1
+weight_decay:
+    value: 0.01

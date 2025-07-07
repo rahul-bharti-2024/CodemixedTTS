@@ -1,0 +1,61 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Jupyter Notebook checkpoints
+*.ipynb_checkpoints
+
+# Model files (PyTorch, TensorFlow, scikit-learn, etc.)
+# Model files
+*.pth
+*.pt
+*.pkl
+*.h5
+*.joblib
+*.ckpt
+*.tflite
+
+# Virtual envs
+env/
+venv/
+.venv/
+
+
+# OS files
+.DS_Store
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+*.out
+
+# Bytecode, cache
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+
+# System files (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# VSCode settings (if applicable)
+.vscode/
+
+# Spyder settings (if applicable)
+.spyproject/
+
+# PyCharm settings (if applicable)
+.idea/
+
+# Other
+*.bak
+*.tmp

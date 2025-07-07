@@ -1,0 +1,40 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "duration": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "dataset": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "segment_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "begin_time": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "end_time": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "audio": {
+      "sampling_rate": 16000,
+      "_type": "Audio"
+    },
+    "filepath": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}
